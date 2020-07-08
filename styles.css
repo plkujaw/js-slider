@@ -201,7 +201,7 @@ Slider
   max-width    : 80rem;
   position     : relative;
   border-radius: 0.5rem;
-  /* overflow     : hidden; */
+  overflow     : hidden;
   margin-top   : 4rem;
 }
 
@@ -241,7 +241,7 @@ Slider
 }
 
 .slide:nth-child(3) {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img-02.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img-03.jpg") center/cover no-repeat;
 }
 
 .btn-container {
