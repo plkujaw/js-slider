@@ -197,7 +197,7 @@ Slider
   border       : 2px solid var(--clr-primary-5);
   width        : 80vw;
   margin       : 0 auto;
-  height       : 40vh;
+  height       : 50vh;
   max-width    : 80rem;
   position     : relative;
   border-radius: 0.5rem;
@@ -224,9 +224,12 @@ Slider
 
 .slide h1 {
   font-size: 5rem;
+  position : absolute;
+  top      : 50%;
+  left     : 50%;
+  transform: translate(-50%, -50%);
 }
-
-.person-img {
+/* .person-img {
   border-radius: 50%;
   width        : 6rem;
   height       : 6rem;
@@ -242,8 +245,7 @@ Slider
 
 .slide:nth-child(3) {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img-03.jpg") center/cover no-repeat;
-}
-
+} */
 .btn-container {
   display        : flex;
   justify-content: center;
@@ -269,17 +271,17 @@ Slider
 }
 @media screen and (min-width: 576px) {
   .slider-container {
-    height: 45vh;
+    height: 60vh;
   }
 }
 @media screen and (min-width: 768px) {
   .slider-container {
-    height: 55vh;
+    height: 70vh;
   }
 }
 @media screen and (min-width: 992px) {
   .slider-container {
-    height: 65vh;
+    height: 80vh;
   }
 }
 /*
