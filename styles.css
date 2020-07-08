@@ -201,7 +201,7 @@ Slider
   max-width    : 80rem;
   position     : relative;
   border-radius: 0.5rem;
-  overflow     : hidden;
+  /* overflow     : hidden; */
   margin-top   : 4rem;
 }
 
@@ -282,7 +282,7 @@ Slider
     height: 65vh;
   }
 }
-
+/*
 .slide:nth-child(1) {
   left: 0;
 }
@@ -300,6 +300,6 @@ Slider
 }
 
 .slide {
-  transform: translateX(-100%);
-}
+  transform: translateX(0%);
+} */
 /* negative value moves to left */
